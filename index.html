@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZubiaGym | La Zubia, Granada</title>
+    <title>ZubiaGym | Tu Fitness en La Zubia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,63 +13,109 @@
         <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#equipo">Equipo</a></li>
-            <li><a href="#clases">Clases</a></li>
+            <li><a href="#horarios">Clases</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
     <header id="inicio" class="hero">
-        <h1>Entrena con Propósito</h1>
-        <p>Instalaciones modernas y maquinaria de última generación en el corazón de La Zubia.</p>
-        <a href="#clases" class="btn">Ver Calendario</a>
+        <div class="hero-content">
+            <h1>Entrena con Propósito</h1>
+            <p>Ubicados en el corazón de La Zubia, Granada. Instalaciones modernas y el mejor ambiente para alcanzar tus metas.</p>
+            <a href="#horarios" class="btn">Ver Calendario de Clases</a>
+        </div>
     </header>
 
     <section id="equipo" class="section">
         <h2 class="section-title">Nuestro Equipo</h2>
         <div class="grid-container">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400" alt="Entrenador">
+            <div class="card-entrenador">
                 <h3>Carlos Ortiz</h3>
                 <p class="especialidad">CrossFit & HIIT</p>
-                <p>Especialista en alta intensidad. Certificado Level 2 CrossFit.</p>
+                <p>Especialista en alta intensidad con más de 8 años de experiencia.</p>
             </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=400" alt="Entrenadora">
+            <div class="card-entrenador">
                 <h3>Lucía Méndez</h3>
                 <p class="especialidad">Yoga & Pilates</p>
-                <p>Experta en movilidad y bienestar. Certificada en Hatha Yoga.</p>
+                <p>Enfocada en la movilidad y bienestar integral. Certificada en Hatha Yoga.</p>
+            </div>
+            <div class="card-entrenador">
+                <h3>Dani Rivas</h3>
+                <p class="especialidad">Nutrición & Funcional</p>
+                <p>Experto en transformación física y asesoramiento nutricional.</p>
             </div>
         </div>
     </section>
 
-    <section id="clases" class="section bg-light">
+    <section id="horarios" class="section bg-light">
         <h2 class="section-title">Programa de la Semana</h2>
         <div class="grid-container">
-            <div class="card">
+            <div class="card-clase">
                 <h3>HIIT Explosivo</h3>
-                <p>Intervalos de alta intensidad para quemar grasa.</p>
-                <button class="btn-reserva">Reservar Clase</button>
+                <p>Quema grasa con intervalos intensos.</p>
+                <p><strong>📅 Mar 09, 2026 - 08:00 AM</strong></p>
+                <span class="tag">Avanzado</span>
             </div>
-            <div class="card">
+            <div class="card-clase">
                 <h3>Yoga Flow</h3>
-                <p>Equilibrio mental y flexibilidad física.</p>
-                <button class="btn-reserva">Reservar Clase</button>
+                <p>Conecta cuerpo y mente.</p>
+                <p><strong>📅 Mar 10, 2026 - 09:30 AM</strong></p>
+                <span class="tag">Principiante</span>
             </div>
-            <div class="card">
+            <div class="card-clase">
                 <h3>Power Spinning</h3>
-                <p>Ciclismo indoor con ritmo y potencia.</p>
-                <button class="btn-reserva">Reservar Clase</button>
+                <p>Ciclismo indoor y ritmo.</p>
+                <p><strong>📅 Mar 11, 2026 - 07:00 PM</strong></p>
+                <span class="tag">Intermedio</span>
+            </div>
+            <div class="card-clase">
+                <h3>Funcional Core</h3>
+                <p>Fortalece tu zona media.</p>
+                <p><strong>📅 Mar 12, 2026 - 10:00 AM</strong></p>
+                <span class="tag">Todos</span>
+            </div>
+            <div class="card-clase">
+                <h3>Pilates Mat</h3>
+                <p>Control y flexibilidad.</p>
+                <p><strong>📅 Mar 13, 2026 - 05:00 PM</strong></p>
+                <span class="tag">Principiante</span>
+            </div>
+            <div class="card-clase">
+                <h3>WOD CrossFit</h3>
+                <p>Fuerza y técnica.</p>
+                <p><strong>📅 Mar 14, 2026 - 11:00 AM</strong></p>
+                <span class="tag">Avanzado</span>
+            </div>
+            <div class="card-clase">
+                <h3>Zumba Fitness</h3>
+                <p>Baila y entrena.</p>
+                <p><strong>📅 Mar 15, 2026 - 12:00 PM</strong></p>
+                <span class="tag">Principiante</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="grid-container">
+            <div>
+                <h3>Servicios Adicionales</h3>
+                <ul class="list">
+                    <li>Sauna y zona de recuperación</li>
+                    <li>Zona de cardio panorámica</li>
+                    <li>Asesoramiento nutricional</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Promociones</h3>
+                <p>¡Trae a un amigo y obtén un <strong>20% de descuento</strong>!</p>
             </div>
         </div>
     </section>
 
     <footer id="contacto">
         <div class="footer-content">
-            <div class="info">
-                <h4>ZubiaGym</h4>
-                <p>Calle Real s/n, La Zubia, Granada.</p>
-                <p>Email: info@zubiagym.com</p>
-            </div>
+            <h4>ZubiaGym La Zubia</h4>
+            <p>Calle Real s/n, 18140 La Zubia, Granada.</p>
         </div>
         <p class="copyright">&copy; 2026 ZubiaGym</p>
     </footer>
